@@ -1,0 +1,123 @@
+.remove-node-page {
+    width: 300px;
+    margin: 50px auto;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+hr {
+    margin: 20px 0;
+    border: 1px solid #ddd;
+}
+
+.atom-image {
+    margin: 20px 0;
+    display: block;
+    max-width: 450px;
+    height: auto;
+}
+
+.label-container {
+    display: block;
+    margin: 20px auto;
+    font-weight: bold;
+    width: 80%;
+    
+}
+
+.filter-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px auto;
+    width: 60%;
+}
+
+.filter-input {
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.list-view-btn {
+    padding: 10px 20px;
+    background-color: #ddd;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.list-view-btn:hover {
+    background-color: #ccc;
+}
+
+.components-list {
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+}
+
+.components-list > div {
+    margin: 10px 0;
+}
+
+.primary-btn, .secondary-btn {
+    display: block;
+    margin: 15px auto;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    width: 100%;
+    background-color: #18a1cc;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.back-btn-link {
+    display: block;
+    margin: 15px auto;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    width: 40%;
+    background-color: #18a1cc;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.primary-btn:hover, .secondary-btn:hover, .back-btn-link:hover {
+    background-color: #0f789a;
+}
+
+.primary-btn:active, .secondary-btn:active, .back-btn-link:active {
+    background-color: #06536b;
+}
+
+.component-container {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+}
+
+.list-view-btn {
+    background-color: none;
+}
+   
+
